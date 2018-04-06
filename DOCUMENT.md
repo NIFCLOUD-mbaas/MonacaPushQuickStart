@@ -432,7 +432,7 @@ layout: false
 ]
 
 .right-column[
-<img src="document-img/APNs_00.png" alt="APNs_00" width="350px">
+<img src="document-img/APNs_00.PNG" alt="APNs_00" width="350px">
 ]
 
 .footnote[
@@ -457,7 +457,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_02.png" alt="APNs_02" width="650px">
+<img src="document-img/APNs_02.PNG" alt="APNs_02" width="650px">
 ]
 
 .footnote[
@@ -480,7 +480,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_03.png" alt="APNs_03" width="650px">
+<img src="document-img/APNs_03.PNG" alt="APNs_03" width="650px">
 ]
 
 .size_small_9[
@@ -505,7 +505,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_04.png" alt="APNs_04" width="450px">
+<img src="document-img/APNs_04.PNG" alt="APNs_04" width="450px">
 ]
 
 .footnote[
@@ -527,7 +527,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_05.png" alt="APNs_05" width="650px">
+<img src="document-img/APNs_05.PNG" alt="APNs_05" width="650px">
 ]
 
 .footnote[
@@ -546,7 +546,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_06.png" alt="APNs_06" width="325px">
+<img src="document-img/APNs_06.PNG" alt="APNs_06" width="325px">
 ]
 
 .footnote[
@@ -566,7 +566,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_07.png" alt="APNs_07" width="325px">
+<img src="document-img/APNs_07.PNG" alt="APNs_07" width="325px">
 ]
 
 .size_small_9[
@@ -592,7 +592,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_23.png" alt="APNs_23" width="700px">
+<img src="document-img/APNs_23.PNG" alt="APNs_23" width="700px">
 ]
 
 .size_small_9[
@@ -616,7 +616,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_24.png" alt="APNs_24" width="700px">
+<img src="document-img/APNs_24.PNG" alt="APNs_24" width="700px">
 ]
 
 .footnote[
@@ -636,7 +636,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_25.png" alt="APNs_25" width="700px">
+<img src="document-img/APNs_25.PNG" alt="APNs_25" width="700px">
 ]
 
 .size_small_7[
@@ -673,7 +673,7 @@ layout: false
   * 「Bundle ID」はアプリ側で同じものを設定しますので必ず控えておきましょう
 ]
   .center[
-  <img src="document-img/APNs_08.png" alt="APNs_08" width="700px">
+  <img src="document-img/APNs_08.PNG" alt="APNs_08" width="700px">
   ]
 
 
@@ -695,7 +695,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_09.png" alt="APNs_09" width="400px">
+<img src="document-img/APNs_09.PNG" alt="APNs_09" width="400px">
 ]
 
 
@@ -716,7 +716,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_10.png" alt="APNs_10" width="700px">
+<img src="document-img/APNs_10.PNG" alt="APNs_10" width="700px">
 ]
 
 .size_small_9[
@@ -741,7 +741,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_11.png" alt="APNs_11" width="400px">
+<img src="document-img/APNs_11.PNG" alt="APNs_11" width="400px">
 ]
 
 .footnote[
@@ -763,7 +763,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_12.png" alt="APNs_12" width="600px">
+<img src="document-img/APNs_12.PNG" alt="APNs_12" width="600px">
 ]
 
 .footnote_right[
@@ -798,7 +798,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_13.png" alt="APNs_13" width="350px">
+<img src="document-img/APNs_13.PNG" alt="APNs_13" width="350px">
 ]
 
 .footnote[
@@ -818,7 +818,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_14.png" alt="APNs_14" width="700px">
+<img src="document-img/APNs_14.PNG" alt="APNs_14" width="700px">
 ]
 
 .footnote[
@@ -839,7 +839,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_15.png" alt="APNs_15" width="700px">
+<img src="document-img/APNs_15.PNG" alt="APNs_15" width="700px">
 ]
 
 .footnote[
@@ -859,7 +859,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_16.png" alt="APNs_16" width="350px">
+<img src="document-img/APNs_16.PNG" alt="APNs_16" width="350px">
 ]
 
 .size_small_9[
@@ -884,7 +884,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_17.png" alt="APNs_17" width="350px">
+<img src="document-img/APNs_17.PNG" alt="APNs_17" width="350px">
 ]
 
 .footnote[
@@ -904,7 +904,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_18.png" alt="APNs_18" width="700px">
+<img src="document-img/APNs_18.PNG" alt="APNs_18" width="700px">
 ]
 
 .footnote[
@@ -925,7 +925,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_19.png" alt="APNs_19" width="700px">
+<img src="document-img/APNs_19.PNG" alt="APNs_19" width="700px">
 ]
 
 .size_small_9[
@@ -952,7 +952,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_20.png" alt="APNs_20" width="700px">
+<img src="document-img/APNs_20.PNG" alt="APNs_20" width="700px">
 ]
 
 .footnote[
@@ -971,7 +971,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_21.png" alt="APNs_21" width="700px">
+<img src="document-img/APNs_21.PNG" alt="APNs_21" width="700px">
 ]
 
 .footnote[
@@ -991,7 +991,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_22.png" alt="APNs_22" width="700px">
+<img src="document-img/APNs_22.PNG" alt="APNs_22" width="700px">
 ]
 
 .size_small_9[
@@ -1021,7 +1021,7 @@ layout: false
 ]
 
 .center[
-<img src="document-img/APNs_00.png" alt="APNs_00" width="600px">
+<img src="document-img/APNs_00.PNG" alt="APNs_00" width="600px">
 ]
 
 .footnote[
