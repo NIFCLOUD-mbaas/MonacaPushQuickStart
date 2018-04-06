@@ -2,4 +2,4 @@
 ## Monaca アプリに プッシュ通知を組み込もう！
 
 資料はこちら▼<br>
-_[準備中]()_
+_[MonacaPushQuickStart](https://natsumo.github.io/MonacaPushQuickStart)_
