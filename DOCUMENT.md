@@ -542,7 +542,7 @@ layout: false
 ]
 
 .size_small_9[
-* 1. で作成した「CSRファイルの作成」を選択し、「Continue」をクリックします
+* 1.で作成した「CSRファイルの作成」を選択し、「Continue」をクリックします
 ]
 
 .center[
