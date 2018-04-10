@@ -1353,7 +1353,7 @@ https://ja.monaca.io/
 
 .center[<img src="document-img/Monaca_06.png" alt="Monaca_06" width="650px">]
 
-* すると「NifCloudMB」というプラグインが表示されます
+* すると「NIFCloudMB」というプラグインが表示されます
 
 .footnote[
 <img src="document-img/both_icon.png" alt="both_icon" width="100px">
