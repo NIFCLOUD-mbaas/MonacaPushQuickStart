@@ -8,7 +8,7 @@ class: center, middle, inverse
 .right[<img src="document-img/takano.png" alt="takano.png" width="150px">]
 
 .footnote[
-20180411 MonacaPushQuickStart
+20180411作成(20180606更新)
 ]
 
 ---
@@ -1681,7 +1681,7 @@ document.addEventListener("deviceready", function(){
 ### Android で動作確認する場合
 
 .size_small_9[
-* 「ビルド」＞「iOSアプリのビルド」を開きます
+* 「ビルド」＞「Androidアプリのビルド」を開きます
 * 「デバッグ向けビルド」の「デバッグビルド」が選択されていることを確認して、「ビルドを開始する」をクリックします
 ]
 
@@ -1983,4 +1983,14 @@ class: center, middle, inverse_sub
 ---
 .center[
 ## ご清聴ありがとうございました！
+]
+
+---
+layout: false
+
+## アンケートのお願い
+https://goo.gl/forms/MmzWuSN5q1vD3VdF3
+
+.center[
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeI1cD2lAox1lxvrON286uyOo3ob9a-hxOOJKZBI9bJWxqoag/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
 ]
