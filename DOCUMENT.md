@@ -129,25 +129,26 @@ __メッセージ系アプリ・リマインダー系アプリ__ がその例で
 はじめに
 ]
 
-### Monaca と mBaaS で<br>サーバー連携アプリは簡単に実現可能に
+### Monaca と mobile backend で<br>サーバー連携アプリは簡単に実現可能に
 この２つを組み合わせると、高度なアプリも簡単スピーディーに開発できます
 
 .center[![Monaca×mBaaS](document-img/Monaca_mBaaS.png)]
 
 .left-column[
-__《アプリ側》Monaca のすごいところ__
+__《アプリ側》Monaca の利点__
 .size_small_7[
-* 無料で使える！
+* **無料** から使える！
 * iOS / Android 同時に開発可能！
 * いつでもどこでも、ブラウザで開発OK！
+* **SDK導入** はクリックだけで簡単！
 ]
 ]
 .right-column[
-__《サーバー側》mBaaS のすごいところ__
+__《サーバー側》mobile backend の利点__
 .size_small_7[
-* 無料で使える！
+* **無料** から使える！
 * **バックエンドの開発・運用は一切不要**！
-* **管理画面** からクラウドの状況を確認できる！
+* **コントロールパネル** からクラウドの状況をパッと確認できる！
 ]
 ]
 
@@ -166,7 +167,7 @@ __《サーバー側》mBaaS のすごいところ__
 
 ### ハンズオン
 #### プッシュ通知の導入方法
-* 実際に Monaca でアプリを作成し、mBaaS でプッシュ通知を導入する手順を紹介します
+* 実際に Monaca でアプリを作成し、mobile backend でプッシュ通知を導入する手順を紹介します
 
 
 ---
@@ -273,7 +274,7 @@ layout: false
 * プッシュ通知の配信は必ず APNs / FCM という iOS / Android のプッシュ通知配信サーバーを介して行っています
 * アプリの起動時にプッシュ通知受信のための準備として図の ①～③の処理が行われます
   * ① アプリ側から APNs / FCM へプッシュ通知の許可を行うと、② APNs / FCM から デバイストークン / レジスタレーションID という端末とアプリを識別するためのIDが発行されます
-  * 取得した デバイストークン / レジスタレーションID はプッシュ通知の配信時に使用する為 ③ アプリ側から mBaaS に保存されます
+  * 取得した デバイストークン / レジスタレーションID はプッシュ通知の配信時に使用する為 ③ アプリ側から mobile  に保存されます
 ]
 
 .center[
@@ -292,7 +293,7 @@ layout: false
 
 .size_small_9[
 * プッシュ通知配信時には ④～⑥ の処理が行われ、アプリへプッシュ通知が配信されます
-   * ④ mBaaS でプッシュ通知の配信登録がされると ⑤ mBaaS から APNs / FCM にプッシュ通知の配信依頼がされます
+   * ④ mobile  でプッシュ通知の配信登録がされると ⑤ mobile  から APNs / FCM にプッシュ通知の配信依頼がされます
       * このとき デバイストークン / レジスタレーションID が使われます
    * ⑥ APNs / FCM から順次アプリ側へプッシュ通知が配信されます
 ]
@@ -302,7 +303,7 @@ layout: false
 ]
 
 .size_small_9[
-ただし、 APNs / FCM を利用するためには、 証明書 / サーバーキー などを用意し、アプリ側または mBaaS 側に設定する必要があります
+ただし、 APNs / FCM を利用するためには、 証明書 / サーバーキー などを用意し、アプリ側または mobile backend 側に設定する必要があります
 ]
 
 .footnote[
@@ -391,13 +392,13 @@ layout: false
 1. プッシュ通知受信に必要な準備
   * iOSで動作確認する場合
   * Androidで動作確認する場合
-1. mBaaSの準備
+1. mobile backend の準備
   * アプリ新規作成
   * プッシュ通知設定
 1. Monacaの準備
   * プロジェクト新規作成
   * プッシュ通知プラグインの有効化
-  * 実装と mBaaS APIキーの設定
+  * 実装と mobile backend APIキーの設定
      * Androidで動作確認する場合のみ
 1. ビルド
   * iOSで動作確認する場合
@@ -1127,12 +1128,12 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
-## 2. mBaaSの準備
-* mBaaS にログインします http://mb.cloud.nifty.com/
+## 2. mobile backend の準備
+* mobile backend にログインします http://mb.cloud.nifty.com/
 
 .center[<img src="document-img/mBaaS_1.png" alt="mBaaSの準備1" width="600px">]
 
@@ -1144,7 +1145,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1155,7 +1156,7 @@ layout: false
 
 .center[![mBaaSの準備2-1](document-img/mBaaS_2-1.png)]
 
-* mBaaSを既に使用したことがある場合は、画面上方のメニューバーにある「+新しいアプリ」をクリックすると同じ画面が表示されます
+* mobile backend を既に使用したことがある場合は、画面上方のメニューバーにある「+新しいアプリ」をクリックすると同じ画面が表示されます
 
 .center[![mBaaSの準備2-2](document-img/mBaaS_2-2.png)]
 
@@ -1166,7 +1167,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1183,7 +1184,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1198,7 +1199,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1216,7 +1217,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1235,7 +1236,7 @@ layout: false
 ---
 .footnote_right[
 .right[
-ハンズオン<br>2. mBaaSの準備
+ハンズオン<br>2. mobile backend の準備
 ]
 ]
 
@@ -1333,7 +1334,7 @@ https://ja.monaca.io/
 
 ### プッシュ通知プラグインの有効化
 
-* ｍBaaS のプッシュ通知を利用するためのプラグインを導入します
+* mobile backend のプッシュ通知を利用するためのプラグインを導入します
 * 「設定」タブをクリックして、「Cordovaプラグインの管理...」をクリックします
 
 .center[<img src="document-img/Monaca_05.png" alt="Monaca_05" width="350px">]
@@ -1384,9 +1385,9 @@ https://ja.monaca.io/
 ]
 ]
 
-### 実装と mBaaS APIキーの設定
+### 実装と mobile backend APIキーの設定
 
-* 引き続きmBaaSとの連携のための設定を行います
+* 引き続き mobile backend との連携のための設定を行います
 * 既に開いている `index.html` タブをクリックして表示します
 * `<script></script>`タグ内にコードを書いていきます
 
@@ -1404,7 +1405,7 @@ https://ja.monaca.io/
 ]
 ]
 
-### 実装と mBaaS APIキーの設定
+### 実装と mobile backend APIキーの設定
 
 * 次のコードを全てコピーして `<script></script>`タグ内に貼り付けてください
 
@@ -1464,11 +1465,11 @@ document.addEventListener("deviceready", function(){
 ]
 ]
 
-* 上２つに mBaaS でアプリ新規作成時に発行された APIキー（アプリケーションキーとクライアントキー）を設定します
+* 上２つに mobile backend でアプリ新規作成時に発行された APIキー（アプリケーションキーとクライアントキー）を設定します
 
 .center[<img src="document-img/code_api.png" alt="code_api" width="400px">]
 
-* APIキーはmBaaSの管理画面「アプリ設定」＞「基本」で確認できます
+* APIキーは mobile backend の管理画面「アプリ設定」＞「基本」で確認できます
 * アプリケーションキーとクライアントキーをコピーして、それぞれ`YOUR_NCMB_APPLICATIONKEY`と`YOUR_NCMB_CLIENTKEY`に貼り付けます
 * このとき、ダブルクォーテーション「`"`」は消さないように注意しましょう
 
@@ -1566,11 +1567,27 @@ document.addEventListener("deviceready", function(){
 ]
 
 .size_small_9[
-* 次にで「設定」＞「iOSビルド設定...」を開きます
-* 「秘密鍵と証明書のインポート」の「インポート」をクリックします
+* 次に同じ画面左上の「ビルド/ビルド設定」の「iOS」を開き、「デバッグビルド」が選択されている状態で右下の「ビルド設定の管理」をクリックします
 ]
 
 .center[<img src="document-img/build_iOS_02.png" alt="build_iOS_02" width="700px">]
+
+.footnote[
+<img src="document-img/iOS_icon.png" alt="iOS_icon" width="50px">
+]
+
+---
+.footnote_right[
+.right[
+ハンズオン<br>4. ビルド
+]
+]
+
+.size_small_9[
+* 「秘密鍵と証明書のインポート」の「インポート」をクリックします
+]
+
+.center[<img src="document-img/build_iOS_02-2.png" alt="build_iOS_02-2" width="700px">]
 
 .footnote[
 <img src="document-img/iOS_icon.png" alt="iOS_icon" width="50px">
@@ -1627,6 +1644,10 @@ document.addEventListener("deviceready", function(){
 
 .center[<img src="document-img/build_iOS_05.png" alt="build_iOS_05" width="700px">]
 
+.size_small_9[
+* 確認したら左下の「戻る」をクリックします
+]
+
 .footnote[
 <img src="document-img/iOS_icon.png" alt="iOS_icon" width="50px">
 ]
@@ -1639,8 +1660,7 @@ document.addEventListener("deviceready", function(){
 ]
 
 .size_small_9[
-* 最後に「ビルド」＞「iOSアプリのビルド」を開きます
-* 「デバッグ向けビルド」の「デバッグビルド」が選択されていることを確認して、「ビルドを開始する」をクリックします
+* 最後に「ビルドを開始する」をクリックします
 ]
 
 .center[<img src="document-img/build_iOS_06.png" alt="build_iOS_06" width="700px">]
@@ -1682,7 +1702,7 @@ document.addEventListener("deviceready", function(){
 
 .size_small_9[
 * 「ビルド」＞「Androidアプリのビルド」を開きます
-* 「デバッグ向けビルド」の「デバッグビルド」が選択されていることを確認して、「ビルドを開始する」をクリックします
+* 「デバッグビルド」が選択されていることを確認して、「ビルドを開始する」をクリックします
 ]
 
 .center[<img src="document-img/build_Android_01.png" alt="build_Android_01" width="700px">]
@@ -1748,8 +1768,8 @@ document.addEventListener("deviceready", function(){
 ]
 
 .size_small_9[
-* 起動時「デバイストークン」が取得され、端末情報が mBaaS に保存されます
-* mBaaS の管理画面から「データストア」＞「installation」クラスを開いて確認します
+* 起動時「デバイストークン」が取得され、端末情報が mobile backend に保存されます
+* mobile backend の管理画面から「データストア」＞「installation」クラスを開いて確認します
 ]
 
 .center[<img src="document-img/push_iOS_02.png" alt="push_iOS_02" width="700px">]
@@ -1814,7 +1834,7 @@ document.addEventListener("deviceready", function(){
 
 .size_small_9[
 * 少し待つと端末側にプッシュ通知が届きます
-* mBaaS 側で配信まで以下のようにステータスが変化します
+* mobile backend 側で配信まで以下のようにステータスが変化します
 ]
 
 .center[<img src="document-img/push_iOS_06.png" alt="push_iOS_06" width="700px">]
@@ -1853,8 +1873,8 @@ document.addEventListener("deviceready", function(){
 ]
 
 .size_small_9[
-* 起動時「レジスタレーションID」が取得され、端末情報が mBaaS に保存されます
-* mBaaS の管理画面から「データストア」＞「installation」クラスを開いて確認します
+* 起動時「レジスタレーションID」が取得され、端末情報が mobile backend に保存されます
+* mobile backend の管理画面から「データストア」＞「installation」クラスを開いて確認します
 ]
 
 .center[<img src="document-img/push_Android_02.png" alt="push_Android_02" width="700px">]
@@ -1919,7 +1939,7 @@ document.addEventListener("deviceready", function(){
 
 .size_small_9[
 * 少し待つと端末側にプッシュ通知が届きます
-* mBaaS 側で配信まで以下のようにステータスが変化します
+* mobile backend 側で配信まで以下のようにステータスが変化します
 ]
 
 .center[<img src="document-img/push_Android_05.png" alt="push_Android_05" width="680px">]
@@ -1938,7 +1958,7 @@ document.addEventListener("deviceready", function(){
 * プッシュ通知の実装方法を学びました
    * プッシュ通知に必要な準備
       * iOSの場合は準備が少し面倒…
-   * Monaca で mBaaS の実装は非常に簡単！！
+   * Monaca で mobile backend の実装は非常に簡単！！
       * プラグインの導入
       * 数行のコード
 
@@ -1952,7 +1972,7 @@ class: center, middle, inverse_sub
 layout: false
 
 ## おわりに
-いかがでしたでしょうか？こんなに使いやすくて便利な mBaaS をもっと活用してみたい方へ、mBaaS の各機能をすぐに試すことができるサンプルアプリを多数ご用意しています。Monaca にサンプルプロジェクトをインポートして、簡単な操作をするだけですぐにお試しいただけます！ぜひご活用ください。
+いかがでしたでしょうか？こんなに使いやすくて便利な mobile backend をもっと活用してみたい方へ、mobile backend の各機能をすぐに試すことができるサンプルアプリを多数ご用意しています。Monaca にサンプルプロジェクトをインポートして、簡単な操作をするだけですぐにお試しいただけます！ぜひご活用ください。
 
 .size_large_11[
 * [mobile backend を体験しよう！](https://github.com/NIFCloud-mbaas/monaca_data_registration)
